@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Stay SA - Enquiry</title>
+</head>
+<body>
+    <!-- Student Stay SA - Part 1: Enquiry Page -->
+    <header>
+        <h1>Student Stay SA</h1>
+        <nav>
+    <a href="index.html">Home</a> |
+    <a href="listings.html">Listings</a> |
+    <a href="about.html">About Us</a> |
+    <a href="enquiry.html">Enquiry</a> |
+    <a href="contact.html">Contact</a>
+</nav>
+    </header>
+
+    <main>
+        <h2>Accommodation Enquiry</h2>
+        <p>Complete the form below to enquire about student accommodation.</p>
+
+        <form action="#" method="post">
+            <p>
+                <label for="full-name">Full Name:</label><br>
+                <input type="text" id="full-name" name="full-name" required>
+            </p>
+
+            <p>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="campus">Preferred Campus:</label><br>
+                <select id="campus" name="campus" required>
+                    <option value="">-- Select Campus --</option>
+                    <option value="rosebank-college">Rosebank College</option>
+                    <option value="uj">University of Johannesburg</option>
+                    <option value="wits">Wits University</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="budget">Monthly Budget:</label><br>
+                <select id="budget" name="budget" required>
+                    <option value="">-- Select Budget --</option>
+                    <option value="under-2000">Under R2,000</option>
+                    <option value="2000-4000">R2,000 - R4,000</option>
+                    <option value="4000-6000">R4,000 - R6,000</option>
+                    <option value="above-6000">Above R6,000</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="message">Enquiry:</label><br>
+                <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Submit Enquiry">
+                <input type="reset" value="Clear Form">
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Stay SA. All rights reserved.</p>
+    </footer>
+</body>
+</html>
